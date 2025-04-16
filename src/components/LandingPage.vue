@@ -6,8 +6,8 @@
       </div>
       <div class="landing-page-content-right">
         <div class="content-column">
-          <h2 class="content-header">I'm a Full Stack Developer</h2>
-          <p class="content-description">I'm Gokul, a passionate Software Engineer at Quinbay in Coimbatore. I
+          <h2 class="content-header">Hey there, I'm Gokul</h2>
+          <p class="content-description">A passionate Software Engineer at Quinbay in Coimbatore. I
             specialize in building full-stack applications that deliver real value to users and businesses.</p>
           <button @click="downloadResume" class="content-button">See my Resume</button>
         </div>
