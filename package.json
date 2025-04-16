@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@primevue/themes": "^4.3.2",
+    "marked": "^15.0.8",
     "pinia": "^2.1.7",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.2",

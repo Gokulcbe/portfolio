@@ -1,36 +1,32 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 import MenuBar from './components/Menubar.vue'
 import LandingPage from './components/LandingPage.vue'
 import AboutPage from './components/AboutPage.vue'
 import EducationTimeline from './components/EducationTimeline.vue'
 import ExperiencePage from './components/ExperiencePage.vue'
+import BlogComponent from './components/BlogComponent.vue'
 import ContactPage from './components/ContactPage.vue'
+import Footer from './components/Footer.vue'
+import { useRoute } from 'vue-router'
+const route = useRoute()
 </script>
 
 <template>
-  <!-- <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <MenuBar />
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header> -->
-  <div id="home">
-    <MenuBar />
+  <div v-if="route.name === 'home'">
     <LandingPage />
     <AboutPage />
     <EducationTimeline />
     <ExperiencePage />
+    <BlogComponent />
     <ContactPage />
   </div>
-  <!-- <RouterView /> -->
+
+  <RouterView v-else />
+
+  <Footer />
 </template>
 
 <style scoped>
