@@ -1,22 +1,38 @@
+import htmlImage from '@/assets/skills/html.png'
+import cssImage from '@/assets/skills/css.png'
+import jsImage from '@/assets/skills/js.png'
+import javaImage from '@/assets/skills/java.png'
+import vuejsImage from '@/assets/skills/vuejs.png'
+import springImage from '@/assets/skills/spring.png'
+import nodeImage from '@/assets/skills/node.png'
+import reactImage from '@/assets/skills/react.webp'
+import restapiImage from '@/assets/skills/restapi.png'
+import mongodbImage from '@/assets/skills/mongodb.png'
+import mysqlImage from '@/assets/skills/mysql.svg'
+import postgresqlImage from '@/assets/skills/postgresql.png'
+import gitImage from '@/assets/skills/git.png'
+import firebaseImage from '@/assets/skills/firebase.png'
+import awsImage from '@/assets/skills/aws.png'
+
 export default {
     data() {
         return {
             skills: [
-                { name: 'HTML', img: 'src/assets/skills/html.png' },
-                { name: 'CSS', img: 'src/assets/skills/css.png' },
-                { name: 'Javascript', img: 'src/assets/skills/js.png' },
-                { name: 'Java', img: 'src/assets/skills/java.png' },
-                { name: 'VueJs', img: 'src/assets/skills/vuejs.png' },
-                { name: 'Spring Boot', img: 'src/assets/skills/spring.png' },
-                { name: 'Node JS', img: 'src/assets/skills/node.png' },
-                { name: 'React JS', img: 'src/assets/skills/react.webp' },
-                { name: 'Rest API', img: 'src/assets/skills/restapi.png' },
-                { name: 'MongoDB', img: 'src/assets/skills/mongodb.png' },
-                { name: 'MySQL', img: 'src/assets/skills/mysql.svg' },
-                { name: 'PostgreSQL', img: 'src/assets/skills/postgresql.png' },
-                { name: 'Git/Github', img: 'src/assets/skills/git.png' },
-                { name: 'Google Firebase', img: 'src/assets/skills/firebase.png' },
-                { name: 'AWS Cloud', img: 'src/assets/skills/aws.png' }
+                { name: 'HTML', img: htmlImage },
+                { name: 'CSS', img: cssImage },
+                { name: 'Javascript', img: jsImage },
+                { name: 'Java', img: javaImage },
+                { name: 'VueJs', img: vuejsImage },
+                { name: 'Spring Boot', img: springImage },
+                { name: 'Node JS', img: nodeImage },
+                { name: 'React JS', img: reactImage },
+                { name: 'Rest API', img: restapiImage },
+                { name: 'MongoDB', img: mongodbImage },
+                { name: 'MySQL', img: mysqlImage },
+                { name: 'PostgreSQL', img: postgresqlImage },
+                { name: 'Git/Github', img: gitImage },
+                { name: 'Google Firebase', img: firebaseImage },
+                { name: 'AWS Cloud', img: awsImage }
             ]
         }
     },
